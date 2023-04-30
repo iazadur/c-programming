@@ -1,0 +1,1 @@
+{"name":"Local: leep_year","url":"d:\\projects\\phitron\\c-programming\\university\\leep_year.c","tests":[{"id":1682878913777,"input":"600","output":"600 is not leap year"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\projects\\phitron\\c-programming\\university\\leep_year.c","group":"local","local":true}
