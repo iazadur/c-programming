@@ -13,11 +13,11 @@ int main()
     }
     if (rev == n)
     {
-        printf("YES");
+        printf("%d\nYES",n);
     }
     else
     {
-        printf("NO");
+        printf("%d\nNO", rev);
     }
 
     return 0;
