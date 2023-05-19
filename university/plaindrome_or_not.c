@@ -13,11 +13,11 @@ int main()
     }
     if (rev == n)
     {
-        printf("YES");
+        printf("Palindrome");
     }
     else
     {
-        printf("NO");
+        printf("NOT Palindrome");
     }
 
     return 0;

@@ -3,7 +3,6 @@
 int main()
 {
     float marks;
-    printf("Enter your marks: ");
     scanf("%f", &marks);
     int grade = marks / 10;
     switch (grade)
