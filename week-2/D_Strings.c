@@ -11,7 +11,7 @@ int main()
     printf("%d %d\n", n, m);
     printf("%s%s\n", a, b);
     char temp[n];
-    strcpy(temp, a);
+    temp[0] = a[0];
     a[0] = b[0];
     b[0] = temp[0];
     printf("%s %s", a, b);
