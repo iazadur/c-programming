@@ -1,22 +1,17 @@
 #include <stdio.h>
 #include <string.h>
 
-int main()
-{
-    char s[1000], c;
-    int i, count = 0;
-    fgets(s, sizeof(s), stdin);
-    scanf("%c", &c);
-
-    for (i = 0; s[i]; i++)
-    {
-        if (s[i] == c)
-        {
+int main(){
+    char line[100];
+    char character;
+    int count = 0;
+    fgets(line, 100, stdin);
+    scanf("%c", &character);
+    for(int i = 0; i < strlen(line); i++){
+        if(line[i] == character){
             count++;
         }
     }
-
-    printf("character '%c' occurs %d times \n ", c, count);
-
+    printf("The number of occurrences of %c in the given line is %d\n", character, count);
     return 0;
 }
